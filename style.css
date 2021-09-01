@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #014e59;
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 1em 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #75cdc6;
+    color: #75cdc6;
+}
+
+.logo {
+    flex: 0.9;
+    flex-direction: row;
+    display: flex;
+    padding: 0em 2em;
+    align-items: center;
+}
+
+.logi {
+    font-size: 26px;
+    margin-bottom: 5px;
+    color: #75cdc6;
+}
+
+.hero-button {
+    padding: 10px 22px;
+    background: transparent;
+    color: #75cdc6;
+    border-radius: 20px;
+    border: 1px solid #75cdc6;
+    text-align: center;
+}
+
+.hero-button:hover {
+    background: #75cdc6;
+    color: #014e59;
+}
+
+.hero-contact {
+    height: 61.1vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    padding: 0em 7.5em;
+    gap: 470px;
+}
+
+.contact-flexed {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.heading h1 {
+    font-size: 37px;
+}
+
+.contact-paragraph h3 {
+    font-size: 10px;
+    color: #f38181;
+}
+
+.contact-paragraph p {
+    width: 390px;
+}
+
+footer {
+    background: #012428;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+}
+
+.merge {
+    display: flex;
+    flex-direction: row;
+    padding: 1em 7.5em;
+    gap: 90px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.navi {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input {
+    height: 40px;
+    width: 185%;
+    background: transparent;
+    border: 1px solid #75cdc6;
+    border-radius: 3px ;
+    text-align: left;   
+}
+
+::-webkit-input-placeholder {
+    padding: 0em 2em;
+    color: #75cdc6;
+}
+
+:-moz-placeholder {
+    text-align: left;
+}
+
+.btn {
+    padding: 10px 22px;
+    background: #fff;
+    color: #012428;
+    border-radius: 20px;
+    border: 1px solid #75cdc6;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #75cdc6;
+    color: #014e59;
+}
